@@ -1,0 +1,380 @@
+{
+  "devices": {
+    "ai-device-1": {
+      "provenance_count": 40,
+      "targets": [
+        "AllergyIntolerance/4bc5c8da-f0b2-28d2-0d38-0974df3a7627",
+        "AllergyIntolerance/4bc5c8da-f0b2-28d2-5ae1-4e750dfb1f28",
+        "AllergyIntolerance/4bc5c8da-f0b2-28d2-b4f5-598889f3ee31",
+        "AllergyIntolerance/5fa64e38-d1b2-8178-1948-1efb9ecc2a0c",
+        "AllergyIntolerance/5fa64e38-d1b2-8178-f050-c722de992793",
+        "AllergyIntolerance/a2697103-463e-4ed8-0140-d90ef9f4b2bc",
+        "Condition/3222c323-17aa-3982-4b9c-fc3939bfc66a",
+        "Condition/3222c323-17aa-3982-ecc3-e68fa0f202d6",
+        "Condition/4bc5c8da-f0b2-28d2-8a8d-9c22ddc9d36c",
+        "Condition/4bc5c8da-f0b2-28d2-ec8e-a80c2904ae93",
+        "Condition/5fa64e38-d1b2-8178-5c85-3ab60b8ce614",
+        "Condition/85753813-8d55-4907-476c-e12c126f07e0",
+        "Condition/85753813-8d55-4907-b44a-24cd1418e6db",
+        "Condition/85753813-8d55-4907-b8fc-a98e86a95536",
+        "Condition/a2697103-463e-4ed8-a3fd-ab0d23b284db",
+        "Condition/a2697103-463e-4ed8-f05b-c82326450c9f",
+        "Condition/f6328ce3-5f6f-f020-58e2-aecf7004fe52",
+        "Condition/f6328ce3-5f6f-f020-acda-68fee34e3b94",
+        "MedicationRequest/5fa64e38-d1b2-8178-c1a8-d44e11456c12",
+        "MedicationRequest/85753813-8d55-4907-3dc5-94cde244f63f",
+        "Observation/3222c323-17aa-3982-016c-b56b21c96787",
+        "Observation/3222c323-17aa-3982-6402-353e14bc1bb5",
+        "Observation/3222c323-17aa-3982-8a81-b89c011f84f9",
+        "Observation/4bc5c8da-f0b2-28d2-a667-2651d082ab60",
+        "Observation/85753813-8d55-4907-4da7-6d727df2238f",
+        "Observation/85753813-8d55-4907-4f40-f8c02d68b4bf",
+        "Observation/85753813-8d55-4907-7d26-46bbe4089586",
+        "Observation/96e4cb94-bd6b-b2a9-2d5f-e6ce3353a838",
+        "Observation/96e4cb94-bd6b-b2a9-5314-3f29570fb22d",
+        "Observation/96e4cb94-bd6b-b2a9-739c-af6899ab6515",
+        "Observation/96e4cb94-bd6b-b2a9-92b0-012b7418a9c4",
+        "Observation/96e4cb94-bd6b-b2a9-b551-1e97ad045a56",
+        "Observation/96e4cb94-bd6b-b2a9-e9b5-fb72e41a172b",
+        "Observation/a2697103-463e-4ed8-29b6-548619d35104",
+        "Observation/a2697103-463e-4ed8-65f6-b522294b3367",
+        "Observation/a2697103-463e-4ed8-8fb3-369007a18937",
+        "Observation/a2697103-463e-4ed8-d9a9-8c828a625999",
+        "Observation/f6328ce3-5f6f-f020-2162-26a8c92d6bc1",
+        "Observation/f6328ce3-5f6f-f020-249a-65cccbd939c3",
+        "Observation/f6328ce3-5f6f-f020-48f5-0704178a5ff5"
+      ]
+    },
+    "ai-device-2": {
+      "provenance_count": 34,
+      "targets": [
+        "Condition/129ccc3b-a228-22f2-57c3-98440906540a",
+        "Condition/1ba2bcb4-c4ad-a145-b767-1852d64e4305",
+        "Condition/1ba2bcb4-c4ad-a145-ba6f-031ec6a9a04a",
+        "Condition/1ba2bcb4-c4ad-a145-dd4c-29c7d3456dbe",
+        "Condition/365798eb-9843-14c0-ae5b-cf1b27bdfa6c",
+        "Condition/ce4b2864-2e7c-cf91-6020-eb1e57011fe8",
+        "Condition/df2f83a6-1d62-4923-4435-56e78845191d",
+        "Observation/129ccc3b-a228-22f2-1496-cfec733db9a5",
+        "Observation/129ccc3b-a228-22f2-4390-2a4f8d58ef8a",
+        "Observation/129ccc3b-a228-22f2-4612-4583394bfd76",
+        "Observation/129ccc3b-a228-22f2-4769-d428d5abbac8",
+        "Observation/129ccc3b-a228-22f2-a50b-82e5a510c2d1",
+        "Observation/2a6cc612-cd86-128c-18fb-be9f495d72fe",
+        "Observation/2a6cc612-cd86-128c-c211-dfb764983e9d",
+        "Observation/2a6cc612-cd86-128c-ec25-875f8ff2f84d",
+        "Observation/365798eb-9843-14c0-5d86-a692324aba71",
+        "Observation/365798eb-9843-14c0-668e-6718811d7023",
+        "Observation/365798eb-9843-14c0-98aa-6bc5aba20af2",
+        "Observation/365798eb-9843-14c0-cca0-8ceaa05701b1",
+        "Observation/365798eb-9843-14c0-e5a8-c445ede4d9eb",
+        "Observation/365798eb-9843-14c0-f536-87442643b0ec",
+        "Observation/92a0ae11-2d48-3bdf-1eae-d1d53d3ef5b9",
+        "Observation/92a0ae11-2d48-3bdf-2274-6f3a3229dae5",
+        "Observation/92a0ae11-2d48-3bdf-cc55-3ec91eee96ab",
+        "Observation/92a0ae11-2d48-3bdf-f78f-dead1f969d7e",
+        "Observation/ce4b2864-2e7c-cf91-bd36-15c5f5bc4488",
+        "Observation/ce4b2864-2e7c-cf91-dadc-09042a87e603",
+        "Observation/ce4b2864-2e7c-cf91-f56f-80e92b338dbe",
+        "Observation/df2f83a6-1d62-4923-529a-47c61eea42c3",
+        "Observation/df2f83a6-1d62-4923-5920-478b9352806a",
+        "Observation/df2f83a6-1d62-4923-5c86-ecac2eb53ce2",
+        "Observation/df2f83a6-1d62-4923-9853-e0260c68be19",
+        "Observation/df2f83a6-1d62-4923-bf47-a56b8eca0315",
+        "Observation/df2f83a6-1d62-4923-f4a3-f769db2c5fe8"
+      ]
+    },
+    "ai-device-3": {
+      "provenance_count": 32,
+      "targets": [
+        "AllergyIntolerance/c53a70b4-5b83-c617-bd45-faa060779df4",
+        "Condition/2c049e64-3857-23b9-37e9-bea00408dd37",
+        "Condition/38677a97-c063-15da-01f3-62e2e099c68e",
+        "Condition/38677a97-c063-15da-0890-9df4f71626e6",
+        "Condition/38677a97-c063-15da-c4d3-d861c1082c02",
+        "Condition/8f042b0a-1a5b-1032-64b8-0bc8171cf068",
+        "Condition/8f042b0a-1a5b-1032-c16b-9a2b265c26d9",
+        "Condition/8f042b0a-1a5b-1032-d456-5b3d41b5c20d",
+        "Condition/8f042b0a-1a5b-1032-fec9-3113941de888",
+        "Condition/c53a70b4-5b83-c617-52ac-90572b3be015",
+        "Condition/c53a70b4-5b83-c617-a2be-7d3c07ce19e4",
+        "MedicationRequest/2c049e64-3857-23b9-99ef-fd39b45e0382",
+        "MedicationRequest/38677a97-c063-15da-2ad1-4c1974ee9089",
+        "MedicationRequest/8f042b0a-1a5b-1032-ad25-b0fbbe6bb623",
+        "MedicationRequest/bc6c0979-d5ea-df89-300a-70745d3c607d",
+        "MedicationRequest/fd042c02-c68b-f10d-c188-1a34c564e7e0",
+        "Observation/2c049e64-3857-23b9-7ac3-8961b5624f03",
+        "Observation/2c049e64-3857-23b9-903f-90c7fd0e3916",
+        "Observation/2c049e64-3857-23b9-c180-ba9ffbcf04b9",
+        "Observation/2c049e64-3857-23b9-f95f-b7731a7c1c45",
+        "Observation/38677a97-c063-15da-d00f-6875f7e396be",
+        "Observation/8f042b0a-1a5b-1032-d394-a445afaea2e1",
+        "Observation/bc6c0979-d5ea-df89-32db-761e2f4d4fa9",
+        "Observation/bc6c0979-d5ea-df89-71ee-6d4504ec2bc5",
+        "Observation/bc6c0979-d5ea-df89-a015-5477bb4ce448",
+        "Observation/bc6c0979-d5ea-df89-dfdb-edd34d7f380f",
+        "Observation/c53a70b4-5b83-c617-0970-6cb8fb818c73",
+        "Observation/c53a70b4-5b83-c617-8a4e-4fd14aea9a79",
+        "Observation/fd042c02-c68b-f10d-161e-1aa26d88f09d",
+        "Observation/fd042c02-c68b-f10d-53e0-e0f59d97cef6",
+        "Observation/fd042c02-c68b-f10d-6acf-2f120065dbcc",
+        "Observation/fd042c02-c68b-f10d-b294-c5fbef1e9e7b"
+      ]
+    }
+  },
+  "prompts": {
+    "prompt-1": {
+      "provenance_count": 29,
+      "targets": [
+        "AllergyIntolerance/4bc5c8da-f0b2-28d2-5ae1-4e750dfb1f28",
+        "AllergyIntolerance/5fa64e38-d1b2-8178-f050-c722de992793",
+        "AllergyIntolerance/a2697103-463e-4ed8-0140-d90ef9f4b2bc",
+        "Condition/3222c323-17aa-3982-4b9c-fc3939bfc66a",
+        "Condition/3222c323-17aa-3982-ecc3-e68fa0f202d6",
+        "Condition/4bc5c8da-f0b2-28d2-8a8d-9c22ddc9d36c",
+        "Condition/4bc5c8da-f0b2-28d2-ec8e-a80c2904ae93",
+        "Condition/5fa64e38-d1b2-8178-5c85-3ab60b8ce614",
+        "Condition/85753813-8d55-4907-476c-e12c126f07e0",
+        "Condition/85753813-8d55-4907-b44a-24cd1418e6db",
+        "Condition/85753813-8d55-4907-b8fc-a98e86a95536",
+        "Condition/a2697103-463e-4ed8-a3fd-ab0d23b284db",
+        "Condition/a2697103-463e-4ed8-f05b-c82326450c9f",
+        "Condition/f6328ce3-5f6f-f020-58e2-aecf7004fe52",
+        "Condition/f6328ce3-5f6f-f020-acda-68fee34e3b94",
+        "MedicationRequest/5fa64e38-d1b2-8178-c1a8-d44e11456c12",
+        "MedicationRequest/85753813-8d55-4907-3dc5-94cde244f63f",
+        "Observation/3222c323-17aa-3982-016c-b56b21c96787",
+        "Observation/3222c323-17aa-3982-6402-353e14bc1bb5",
+        "Observation/4bc5c8da-f0b2-28d2-a667-2651d082ab60",
+        "Observation/85753813-8d55-4907-4da7-6d727df2238f",
+        "Observation/96e4cb94-bd6b-b2a9-5314-3f29570fb22d",
+        "Observation/96e4cb94-bd6b-b2a9-739c-af6899ab6515",
+        "Observation/96e4cb94-bd6b-b2a9-b551-1e97ad045a56",
+        "Observation/96e4cb94-bd6b-b2a9-e9b5-fb72e41a172b",
+        "Observation/a2697103-463e-4ed8-29b6-548619d35104",
+        "Observation/a2697103-463e-4ed8-d9a9-8c828a625999",
+        "Observation/f6328ce3-5f6f-f020-249a-65cccbd939c3",
+        "Observation/f6328ce3-5f6f-f020-48f5-0704178a5ff5"
+      ]
+    },
+    "prompt-2": {
+      "provenance_count": 19,
+      "targets": [
+        "AllergyIntolerance/4bc5c8da-f0b2-28d2-0d38-0974df3a7627",
+        "AllergyIntolerance/4bc5c8da-f0b2-28d2-b4f5-598889f3ee31",
+        "AllergyIntolerance/5fa64e38-d1b2-8178-1948-1efb9ecc2a0c",
+        "Condition/38677a97-c063-15da-c4d3-d861c1082c02",
+        "Condition/8f042b0a-1a5b-1032-64b8-0bc8171cf068",
+        "Condition/8f042b0a-1a5b-1032-d456-5b3d41b5c20d",
+        "Condition/c53a70b4-5b83-c617-52ac-90572b3be015",
+        "Observation/2c049e64-3857-23b9-7ac3-8961b5624f03",
+        "Observation/2c049e64-3857-23b9-f95f-b7731a7c1c45",
+        "Observation/3222c323-17aa-3982-8a81-b89c011f84f9",
+        "Observation/85753813-8d55-4907-4f40-f8c02d68b4bf",
+        "Observation/85753813-8d55-4907-7d26-46bbe4089586",
+        "Observation/96e4cb94-bd6b-b2a9-2d5f-e6ce3353a838",
+        "Observation/96e4cb94-bd6b-b2a9-92b0-012b7418a9c4",
+        "Observation/a2697103-463e-4ed8-65f6-b522294b3367",
+        "Observation/a2697103-463e-4ed8-8fb3-369007a18937",
+        "Observation/bc6c0979-d5ea-df89-32db-761e2f4d4fa9",
+        "Observation/f6328ce3-5f6f-f020-2162-26a8c92d6bc1",
+        "Observation/fd042c02-c68b-f10d-161e-1aa26d88f09d"
+      ]
+    },
+    "prompt-3": {
+      "provenance_count": 24,
+      "targets": [
+        "Condition/129ccc3b-a228-22f2-57c3-98440906540a",
+        "Condition/1ba2bcb4-c4ad-a145-b767-1852d64e4305",
+        "Condition/1ba2bcb4-c4ad-a145-dd4c-29c7d3456dbe",
+        "Condition/365798eb-9843-14c0-ae5b-cf1b27bdfa6c",
+        "Condition/ce4b2864-2e7c-cf91-6020-eb1e57011fe8",
+        "Condition/df2f83a6-1d62-4923-4435-56e78845191d",
+        "Observation/129ccc3b-a228-22f2-1496-cfec733db9a5",
+        "Observation/129ccc3b-a228-22f2-4612-4583394bfd76",
+        "Observation/129ccc3b-a228-22f2-4769-d428d5abbac8",
+        "Observation/2a6cc612-cd86-128c-18fb-be9f495d72fe",
+        "Observation/2a6cc612-cd86-128c-c211-dfb764983e9d",
+        "Observation/365798eb-9843-14c0-668e-6718811d7023",
+        "Observation/365798eb-9843-14c0-98aa-6bc5aba20af2",
+        "Observation/365798eb-9843-14c0-cca0-8ceaa05701b1",
+        "Observation/365798eb-9843-14c0-f536-87442643b0ec",
+        "Observation/92a0ae11-2d48-3bdf-1eae-d1d53d3ef5b9",
+        "Observation/92a0ae11-2d48-3bdf-cc55-3ec91eee96ab",
+        "Observation/92a0ae11-2d48-3bdf-f78f-dead1f969d7e",
+        "Observation/ce4b2864-2e7c-cf91-bd36-15c5f5bc4488",
+        "Observation/ce4b2864-2e7c-cf91-dadc-09042a87e603",
+        "Observation/df2f83a6-1d62-4923-5920-478b9352806a",
+        "Observation/df2f83a6-1d62-4923-5c86-ecac2eb53ce2",
+        "Observation/df2f83a6-1d62-4923-9853-e0260c68be19",
+        "Observation/df2f83a6-1d62-4923-f4a3-f769db2c5fe8"
+      ]
+    },
+    "prompt-4": {
+      "provenance_count": 10,
+      "targets": [
+        "Condition/1ba2bcb4-c4ad-a145-ba6f-031ec6a9a04a",
+        "Observation/129ccc3b-a228-22f2-4390-2a4f8d58ef8a",
+        "Observation/129ccc3b-a228-22f2-a50b-82e5a510c2d1",
+        "Observation/2a6cc612-cd86-128c-ec25-875f8ff2f84d",
+        "Observation/365798eb-9843-14c0-5d86-a692324aba71",
+        "Observation/365798eb-9843-14c0-e5a8-c445ede4d9eb",
+        "Observation/92a0ae11-2d48-3bdf-2274-6f3a3229dae5",
+        "Observation/ce4b2864-2e7c-cf91-f56f-80e92b338dbe",
+        "Observation/df2f83a6-1d62-4923-529a-47c61eea42c3",
+        "Observation/df2f83a6-1d62-4923-bf47-a56b8eca0315"
+      ]
+    },
+    "prompt-5": {
+      "provenance_count": 24,
+      "targets": [
+        "AllergyIntolerance/c53a70b4-5b83-c617-bd45-faa060779df4",
+        "Condition/2c049e64-3857-23b9-37e9-bea00408dd37",
+        "Condition/38677a97-c063-15da-01f3-62e2e099c68e",
+        "Condition/38677a97-c063-15da-0890-9df4f71626e6",
+        "Condition/8f042b0a-1a5b-1032-c16b-9a2b265c26d9",
+        "Condition/8f042b0a-1a5b-1032-fec9-3113941de888",
+        "Condition/c53a70b4-5b83-c617-a2be-7d3c07ce19e4",
+        "MedicationRequest/2c049e64-3857-23b9-99ef-fd39b45e0382",
+        "MedicationRequest/38677a97-c063-15da-2ad1-4c1974ee9089",
+        "MedicationRequest/8f042b0a-1a5b-1032-ad25-b0fbbe6bb623",
+        "MedicationRequest/bc6c0979-d5ea-df89-300a-70745d3c607d",
+        "MedicationRequest/fd042c02-c68b-f10d-c188-1a34c564e7e0",
+        "Observation/2c049e64-3857-23b9-903f-90c7fd0e3916",
+        "Observation/2c049e64-3857-23b9-c180-ba9ffbcf04b9",
+        "Observation/38677a97-c063-15da-d00f-6875f7e396be",
+        "Observation/8f042b0a-1a5b-1032-d394-a445afaea2e1",
+        "Observation/bc6c0979-d5ea-df89-71ee-6d4504ec2bc5",
+        "Observation/bc6c0979-d5ea-df89-a015-5477bb4ce448",
+        "Observation/bc6c0979-d5ea-df89-dfdb-edd34d7f380f",
+        "Observation/c53a70b4-5b83-c617-0970-6cb8fb818c73",
+        "Observation/c53a70b4-5b83-c617-8a4e-4fd14aea9a79",
+        "Observation/fd042c02-c68b-f10d-53e0-e0f59d97cef6",
+        "Observation/fd042c02-c68b-f10d-6acf-2f120065dbcc",
+        "Observation/fd042c02-c68b-f10d-b294-c5fbef1e9e7b"
+      ]
+    }
+  },
+  "patients": {
+    "Patient/129ccc3b-a228-22f2-8d8d-fda260171615": {
+      "name": "Silas208 Andrew29 Thompson596",
+      "bundle": "labeled/silas_thompson_bundle.json",
+      "ai_labeled": 6,
+      "unlabeled": 28
+    },
+    "Patient/1ba2bcb4-c4ad-a145-dc4e-06672242eaf1": {
+      "name": "Teresa94 Emard19",
+      "bundle": "labeled/teresa_emard_bundle.json",
+      "ai_labeled": 3,
+      "unlabeled": 16
+    },
+    "Patient/2a6cc612-cd86-128c-1a72-c9935613f18a": {
+      "name": "Teisha100 Jacqui951 Swift555",
+      "bundle": "labeled/teisha_swift_bundle.json",
+      "ai_labeled": 3,
+      "unlabeled": 21
+    },
+    "Patient/2c049e64-3857-23b9-d4d0-e8ac7e8eeaef": {
+      "name": "Marla843 Soon875 Mosciski958",
+      "bundle": "labeled/marla_mosciski_bundle.json",
+      "ai_labeled": 6,
+      "unlabeled": 28
+    },
+    "Patient/3222c323-17aa-3982-96c4-d77507e6eaad": {
+      "name": "Miguel \u00c1ngel46 Juan Carlos348 Urrutia540",
+      "bundle": "labeled/miguel_urrutia_bundle.json",
+      "ai_labeled": 5,
+      "unlabeled": 29
+    },
+    "Patient/365798eb-9843-14c0-2df7-aa676dd8f494": {
+      "name": "Jules135 Kristopher775 Hilpert278",
+      "bundle": "labeled/jules_hilpert_bundle.json",
+      "ai_labeled": 7,
+      "unlabeled": 27
+    },
+    "Patient/38677a97-c063-15da-1d9e-5dc492edb17d": {
+      "name": "Evelia928 Eric487 Batz141",
+      "bundle": "labeled/evelia_batz_bundle.json",
+      "ai_labeled": 5,
+      "unlabeled": 30
+    },
+    "Patient/4bc5c8da-f0b2-28d2-2da0-409c228f73cb": {
+      "name": "Ellis535 Josephina269 Sporer811",
+      "bundle": "labeled/ellis_sporer_bundle.json",
+      "ai_labeled": 6,
+      "unlabeled": 28
+    },
+    "Patient/5fa64e38-d1b2-8178-2d24-bd1c4bfb534d": {
+      "name": "Betsey110 Sheron583 Reichel38",
+      "bundle": "labeled/betsey_reichel_bundle.json",
+      "ai_labeled": 4,
+      "unlabeled": 18
+    },
+    "Patient/85753813-8d55-4907-0a73-b974e2b1fe23": {
+      "name": "Avery919 Willis868 Gottlieb798",
+      "bundle": "labeled/avery_gottlieb_bundle.json",
+      "ai_labeled": 7,
+      "unlabeled": 27
+    },
+    "Patient/8f042b0a-1a5b-1032-d860-fbdb91b0560e": {
+      "name": "Nicky270 Austin578 Fadel536",
+      "bundle": "labeled/nicky_fadel_bundle.json",
+      "ai_labeled": 6,
+      "unlabeled": 28
+    },
+    "Patient/92a0ae11-2d48-3bdf-a45a-f41703cf8f81": {
+      "name": "Samira471 Brooke250 Romaguera67",
+      "bundle": "labeled/samira_romaguera_bundle.json",
+      "ai_labeled": 4,
+      "unlabeled": 24
+    },
+    "Patient/96e4cb94-bd6b-b2a9-b8a4-15511816f689": {
+      "name": "Devora529 Vennie613 Boehm581",
+      "bundle": "labeled/devora_boehm_bundle.json",
+      "ai_labeled": 6,
+      "unlabeled": 27
+    },
+    "Patient/a2697103-463e-4ed8-5ea5-d677d18672e0": {
+      "name": "Mario764 Arriaga291",
+      "bundle": "labeled/mario_arriaga_bundle.json",
+      "ai_labeled": 7,
+      "unlabeled": 27
+    },
+    "Patient/bc6c0979-d5ea-df89-4c8e-66a8bf793efd": {
+      "name": "Bunny174 Donnelly343",
+      "bundle": "labeled/bunny_donnelly_bundle.json",
+      "ai_labeled": 5,
+      "unlabeled": 30
+    },
+    "Patient/c53a70b4-5b83-c617-899c-43a5d6f6293b": {
+      "name": "Ricarda574 Olevia458 Stanton715",
+      "bundle": "labeled/ricarda_stanton_bundle.json",
+      "ai_labeled": 5,
+      "unlabeled": 30
+    },
+    "Patient/ce4b2864-2e7c-cf91-ead6-86697d4c06b7": {
+      "name": "Jonathon205 Reginald96 Barton704",
+      "bundle": "labeled/jonathon_barton_bundle.json",
+      "ai_labeled": 4,
+      "unlabeled": 25
+    },
+    "Patient/df2f83a6-1d62-4923-f057-40f785234fb1": {
+      "name": "Milissa240 Palmira118 Stanton715",
+      "bundle": "labeled/milissa_stanton_bundle.json",
+      "ai_labeled": 7,
+      "unlabeled": 27
+    },
+    "Patient/f6328ce3-5f6f-f020-0349-7b1033a28ef0": {
+      "name": "Marisela850 Christia477 Wilderman619",
+      "bundle": "labeled/marisela_wilderman_bundle.json",
+      "ai_labeled": 5,
+      "unlabeled": 29
+    },
+    "Patient/fd042c02-c68b-f10d-319c-d8408829159c": {
+      "name": "Elmira442 Osinski784",
+      "bundle": "labeled/elmira_osinski_bundle.json",
+      "ai_labeled": 5,
+      "unlabeled": 25
+    }
+  }
+}

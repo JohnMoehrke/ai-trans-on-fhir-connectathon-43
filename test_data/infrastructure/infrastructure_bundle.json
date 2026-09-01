@@ -1,0 +1,402 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Device/ai-device-1",
+      "resource": {
+        "resourceType": "Device",
+        "id": "ai-device-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-Device"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/aitransparency.AIKind",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIdeviceTypeCS",
+                  "code": "Large-Language-Models"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://example.org/ai-vendor/device-ids",
+            "value": "scribeassist-llm-v3"
+          }
+        ],
+        "manufacturer": "Acme Clinical AI, Inc",
+        "deviceName": [
+          {
+            "name": "ScribeAssist LLM",
+            "type": "user-friendly-name"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIdeviceTypeCS",
+              "code": "Clinical-Documentation-and-Workflow"
+            }
+          ]
+        },
+        "version": [
+          {
+            "value": "3.2.1"
+          }
+        ],
+        "contact": [
+          {
+            "system": "url",
+            "value": "http://example.org/ai/scribeassist"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/ai-device-1"
+      }
+    },
+    {
+      "fullUrl": "Device/ai-device-2",
+      "resource": {
+        "resourceType": "Device",
+        "id": "ai-device-2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-Device"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/aitransparency.AIKind",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIdeviceTypeCS",
+                  "code": "AI-for-Medical-Text-Data"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://example.org/ai-vendor/device-ids",
+            "value": "textxtract-nlp-v2"
+          }
+        ],
+        "manufacturer": "Acme Clinical AI, Inc",
+        "deviceName": [
+          {
+            "name": "TextXtract NLP Pipeline",
+            "type": "user-friendly-name"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIdeviceTypeCS",
+              "code": "AI-for-Medical-Text-Data"
+            }
+          ]
+        },
+        "version": [
+          {
+            "value": "2.0.4"
+          }
+        ],
+        "contact": [
+          {
+            "system": "url",
+            "value": "http://example.org/ai/textxtract"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/ai-device-2"
+      }
+    },
+    {
+      "fullUrl": "Device/ai-device-3",
+      "resource": {
+        "resourceType": "Device",
+        "id": "ai-device-3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-Device"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/aitransparency.AIKind",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIdeviceTypeCS",
+                  "code": "Machine-Learning-Models"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://example.org/ai-vendor/device-ids",
+            "value": "earlywarn-risk-v1"
+          }
+        ],
+        "manufacturer": "Acme Clinical AI, Inc",
+        "deviceName": [
+          {
+            "name": "EarlyWarn Risk Model",
+            "type": "user-friendly-name"
+          }
+        ],
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIdeviceTypeCS",
+              "code": "Clinical-Monitoring-and-Early-Warning"
+            }
+          ]
+        },
+        "version": [
+          {
+            "value": "1.4.0"
+          }
+        ],
+        "contact": [
+          {
+            "system": "url",
+            "value": "http://example.org/ai/earlywarn"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/ai-device-3"
+      }
+    },
+    {
+      "fullUrl": "DocumentReference/prompt-1",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "prompt-1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-InputPrompt"
+          ]
+        },
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIinputsCS",
+              "code": "AIInputPrompt"
+            }
+          ]
+        },
+        "description": "System Prompt\n\nYou are a clinical scribe assistant. Read the attached free-text clinical note for a single encounter and produce a concise, clinically accurate summary suitable for the encounter record. Do not invent findings that are not present in the note. Preserve clinically relevant negatives. Use plain English suitable for a chart summary.\n\nRequirements:\n- Summarize in 2-4 sentences\n- Preserve all vital sign values and named diagnoses verbatim\n- Flag any finding that appears to require follow-up\n\nUser Prompt\n\nSummarize the attached clinical note for this encounter.",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/markdown",
+              "data": "U3lzdGVtIFByb21wdAoKWW91IGFyZSBhIGNsaW5pY2FsIHNjcmliZSBhc3Npc3RhbnQuIFJlYWQgdGhlIGF0dGFjaGVkIGZyZWUtdGV4dCBjbGluaWNhbCBub3RlIGZvciBhIHNpbmdsZSBlbmNvdW50ZXIgYW5kIHByb2R1Y2UgYSBjb25jaXNlLCBjbGluaWNhbGx5IGFjY3VyYXRlIHN1bW1hcnkgc3VpdGFibGUgZm9yIHRoZSBlbmNvdW50ZXIgcmVjb3JkLiBEbyBub3QgaW52ZW50IGZpbmRpbmdzIHRoYXQgYXJlIG5vdCBwcmVzZW50IGluIHRoZSBub3RlLiBQcmVzZXJ2ZSBjbGluaWNhbGx5IHJlbGV2YW50IG5lZ2F0aXZlcy4gVXNlIHBsYWluIEVuZ2xpc2ggc3VpdGFibGUgZm9yIGEgY2hhcnQgc3VtbWFyeS4KClJlcXVpcmVtZW50czoKLSBTdW1tYXJpemUgaW4gMi00IHNlbnRlbmNlcwotIFByZXNlcnZlIGFsbCB2aXRhbCBzaWduIHZhbHVlcyBhbmQgbmFtZWQgZGlhZ25vc2VzIHZlcmJhdGltCi0gRmxhZyBhbnkgZmluZGluZyB0aGF0IGFwcGVhcnMgdG8gcmVxdWlyZSBmb2xsb3ctdXAKClVzZXIgUHJvbXB0CgpTdW1tYXJpemUgdGhlIGF0dGFjaGVkIGNsaW5pY2FsIG5vdGUgZm9yIHRoaXMgZW5jb3VudGVyLg=="
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/prompt-1"
+      }
+    },
+    {
+      "fullUrl": "DocumentReference/prompt-2",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "prompt-2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-InputPrompt"
+          ]
+        },
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIinputsCS",
+              "code": "AIInputPrompt"
+            }
+          ]
+        },
+        "description": "System Prompt\n\nYou are a clinical documentation assistant. Read the attached encounter note and draft a short visit summary paragraph describing the reason for visit, assessment, and plan, in the style of a discharge or after-visit summary suitable for the patient's record.\n\nRequirements:\n- Use only information present in the attached note\n- Keep the summary to a single paragraph\n- Note any medication or allergy information explicitly\n\nUser Prompt\n\nDraft a visit summary paragraph from the attached encounter note.",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/markdown",
+              "data": "U3lzdGVtIFByb21wdAoKWW91IGFyZSBhIGNsaW5pY2FsIGRvY3VtZW50YXRpb24gYXNzaXN0YW50LiBSZWFkIHRoZSBhdHRhY2hlZCBlbmNvdW50ZXIgbm90ZSBhbmQgZHJhZnQgYSBzaG9ydCB2aXNpdCBzdW1tYXJ5IHBhcmFncmFwaCBkZXNjcmliaW5nIHRoZSByZWFzb24gZm9yIHZpc2l0LCBhc3Nlc3NtZW50LCBhbmQgcGxhbiwgaW4gdGhlIHN0eWxlIG9mIGEgZGlzY2hhcmdlIG9yIGFmdGVyLXZpc2l0IHN1bW1hcnkgc3VpdGFibGUgZm9yIHRoZSBwYXRpZW50J3MgcmVjb3JkLgoKUmVxdWlyZW1lbnRzOgotIFVzZSBvbmx5IGluZm9ybWF0aW9uIHByZXNlbnQgaW4gdGhlIGF0dGFjaGVkIG5vdGUKLSBLZWVwIHRoZSBzdW1tYXJ5IHRvIGEgc2luZ2xlIHBhcmFncmFwaAotIE5vdGUgYW55IG1lZGljYXRpb24gb3IgYWxsZXJneSBpbmZvcm1hdGlvbiBleHBsaWNpdGx5CgpVc2VyIFByb21wdAoKRHJhZnQgYSB2aXNpdCBzdW1tYXJ5IHBhcmFncmFwaCBmcm9tIHRoZSBhdHRhY2hlZCBlbmNvdW50ZXIgbm90ZS4="
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/prompt-2"
+      }
+    },
+    {
+      "fullUrl": "DocumentReference/prompt-3",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "prompt-3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-InputPrompt"
+          ]
+        },
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIinputsCS",
+              "code": "AIInputPrompt"
+            }
+          ]
+        },
+        "description": "System Prompt\n\nYou are a clinical NLP extraction pipeline. Read the attached clinical note text and extract discrete clinical observations (vital signs, measurements, and reported findings) as structured data suitable for conversion into FHIR Observation resources. Only extract values that are explicitly stated in the text.\n\nRequirements:\n- Extract each observation's name, value, unit, and effective date/time when present\n- Do not infer or normalize values beyond what is stated\n- Output one structured record per observation\n\nUser Prompt\n\nExtract structured observations from the attached clinical note.",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/markdown",
+              "data": "U3lzdGVtIFByb21wdAoKWW91IGFyZSBhIGNsaW5pY2FsIE5MUCBleHRyYWN0aW9uIHBpcGVsaW5lLiBSZWFkIHRoZSBhdHRhY2hlZCBjbGluaWNhbCBub3RlIHRleHQgYW5kIGV4dHJhY3QgZGlzY3JldGUgY2xpbmljYWwgb2JzZXJ2YXRpb25zICh2aXRhbCBzaWducywgbWVhc3VyZW1lbnRzLCBhbmQgcmVwb3J0ZWQgZmluZGluZ3MpIGFzIHN0cnVjdHVyZWQgZGF0YSBzdWl0YWJsZSBmb3IgY29udmVyc2lvbiBpbnRvIEZISVIgT2JzZXJ2YXRpb24gcmVzb3VyY2VzLiBPbmx5IGV4dHJhY3QgdmFsdWVzIHRoYXQgYXJlIGV4cGxpY2l0bHkgc3RhdGVkIGluIHRoZSB0ZXh0LgoKUmVxdWlyZW1lbnRzOgotIEV4dHJhY3QgZWFjaCBvYnNlcnZhdGlvbidzIG5hbWUsIHZhbHVlLCB1bml0LCBhbmQgZWZmZWN0aXZlIGRhdGUvdGltZSB3aGVuIHByZXNlbnQKLSBEbyBub3QgaW5mZXIgb3Igbm9ybWFsaXplIHZhbHVlcyBiZXlvbmQgd2hhdCBpcyBzdGF0ZWQKLSBPdXRwdXQgb25lIHN0cnVjdHVyZWQgcmVjb3JkIHBlciBvYnNlcnZhdGlvbgoKVXNlciBQcm9tcHQKCkV4dHJhY3Qgc3RydWN0dXJlZCBvYnNlcnZhdGlvbnMgZnJvbSB0aGUgYXR0YWNoZWQgY2xpbmljYWwgbm90ZS4="
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/prompt-3"
+      }
+    },
+    {
+      "fullUrl": "DocumentReference/prompt-4",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "prompt-4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-InputPrompt"
+          ]
+        },
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIinputsCS",
+              "code": "AIInputPrompt"
+            }
+          ]
+        },
+        "description": "System Prompt\n\nYou are a clinical NLP extraction pipeline. Read the attached clinical note text and extract any mentions of allergies, adverse reactions, or medications the patient is reported to be taking, as structured data suitable for conversion into FHIR AllergyIntolerance and MedicationRequest resources. Only extract items explicitly stated in the text.\n\nRequirements:\n- For allergies: capture the substance and reaction if stated\n- For medications: capture the medication name and any stated dose or frequency\n- Do not infer allergies or medications that are not explicitly mentioned\n\nUser Prompt\n\nExtract and code allergy and medication information from the attached clinical note.",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/markdown",
+              "data": "U3lzdGVtIFByb21wdAoKWW91IGFyZSBhIGNsaW5pY2FsIE5MUCBleHRyYWN0aW9uIHBpcGVsaW5lLiBSZWFkIHRoZSBhdHRhY2hlZCBjbGluaWNhbCBub3RlIHRleHQgYW5kIGV4dHJhY3QgYW55IG1lbnRpb25zIG9mIGFsbGVyZ2llcywgYWR2ZXJzZSByZWFjdGlvbnMsIG9yIG1lZGljYXRpb25zIHRoZSBwYXRpZW50IGlzIHJlcG9ydGVkIHRvIGJlIHRha2luZywgYXMgc3RydWN0dXJlZCBkYXRhIHN1aXRhYmxlIGZvciBjb252ZXJzaW9uIGludG8gRkhJUiBBbGxlcmd5SW50b2xlcmFuY2UgYW5kIE1lZGljYXRpb25SZXF1ZXN0IHJlc291cmNlcy4gT25seSBleHRyYWN0IGl0ZW1zIGV4cGxpY2l0bHkgc3RhdGVkIGluIHRoZSB0ZXh0LgoKUmVxdWlyZW1lbnRzOgotIEZvciBhbGxlcmdpZXM6IGNhcHR1cmUgdGhlIHN1YnN0YW5jZSBhbmQgcmVhY3Rpb24gaWYgc3RhdGVkCi0gRm9yIG1lZGljYXRpb25zOiBjYXB0dXJlIHRoZSBtZWRpY2F0aW9uIG5hbWUgYW5kIGFueSBzdGF0ZWQgZG9zZSBvciBmcmVxdWVuY3kKLSBEbyBub3QgaW5mZXIgYWxsZXJnaWVzIG9yIG1lZGljYXRpb25zIHRoYXQgYXJlIG5vdCBleHBsaWNpdGx5IG1lbnRpb25lZAoKVXNlciBQcm9tcHQKCkV4dHJhY3QgYW5kIGNvZGUgYWxsZXJneSBhbmQgbWVkaWNhdGlvbiBpbmZvcm1hdGlvbiBmcm9tIHRoZSBhdHRhY2hlZCBjbGluaWNhbCBub3RlLg=="
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/prompt-4"
+      }
+    },
+    {
+      "fullUrl": "DocumentReference/prompt-5",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "prompt-5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-InputPrompt"
+          ]
+        },
+        "status": "current",
+        "type": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIinputsCS",
+              "code": "AIInputPrompt"
+            }
+          ]
+        },
+        "description": "System Prompt\n\nYou are a clinical early-warning risk scoring model. Given the patient's recent encounter history, active problem list, and most recent vital signs and labs, compute a readmission / deterioration risk score and produce a structured risk observation with the score, the risk category, and the contributing input features.\n\nRequirements:\n- Score must be reproducible from the listed input features alone\n- Report the risk category (low/medium/high) alongside the numeric score\n- List the specific conditions and vitals that contributed most to the score\n\nUser Prompt\n\nScore this patient's readmission / early-warning risk from the attached recent encounter and problem list data.",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/markdown",
+              "data": "U3lzdGVtIFByb21wdAoKWW91IGFyZSBhIGNsaW5pY2FsIGVhcmx5LXdhcm5pbmcgcmlzayBzY29yaW5nIG1vZGVsLiBHaXZlbiB0aGUgcGF0aWVudCdzIHJlY2VudCBlbmNvdW50ZXIgaGlzdG9yeSwgYWN0aXZlIHByb2JsZW0gbGlzdCwgYW5kIG1vc3QgcmVjZW50IHZpdGFsIHNpZ25zIGFuZCBsYWJzLCBjb21wdXRlIGEgcmVhZG1pc3Npb24gLyBkZXRlcmlvcmF0aW9uIHJpc2sgc2NvcmUgYW5kIHByb2R1Y2UgYSBzdHJ1Y3R1cmVkIHJpc2sgb2JzZXJ2YXRpb24gd2l0aCB0aGUgc2NvcmUsIHRoZSByaXNrIGNhdGVnb3J5LCBhbmQgdGhlIGNvbnRyaWJ1dGluZyBpbnB1dCBmZWF0dXJlcy4KClJlcXVpcmVtZW50czoKLSBTY29yZSBtdXN0IGJlIHJlcHJvZHVjaWJsZSBmcm9tIHRoZSBsaXN0ZWQgaW5wdXQgZmVhdHVyZXMgYWxvbmUKLSBSZXBvcnQgdGhlIHJpc2sgY2F0ZWdvcnkgKGxvdy9tZWRpdW0vaGlnaCkgYWxvbmdzaWRlIHRoZSBudW1lcmljIHNjb3JlCi0gTGlzdCB0aGUgc3BlY2lmaWMgY29uZGl0aW9ucyBhbmQgdml0YWxzIHRoYXQgY29udHJpYnV0ZWQgbW9zdCB0byB0aGUgc2NvcmUKClVzZXIgUHJvbXB0CgpTY29yZSB0aGlzIHBhdGllbnQncyByZWFkbWlzc2lvbiAvIGVhcmx5LXdhcm5pbmcgcmlzayBmcm9tIHRoZSBhdHRhY2hlZCByZWNlbnQgZW5jb3VudGVyIGFuZCBwcm9ibGVtIGxpc3QgZGF0YS4="
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/prompt-5"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/practitioner-verifier",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "practitioner-verifier",
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999912345"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Okafor",
+            "given": [
+              "Adaeze"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ],
+              "text": "MD"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/practitioner-verifier"
+      }
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {
   "resourceType": "Bundle",
+  "id": "elmira-osinski-bundle",
   "type": "transaction",
   "entry": [
     {

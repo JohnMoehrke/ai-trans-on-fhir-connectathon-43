@@ -1,5 +1,6 @@
 {
   "resourceType": "Bundle",
+  "id": "infrastructure-bundle",
   "type": "transaction",
   "entry": [
     {

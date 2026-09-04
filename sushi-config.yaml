@@ -1,0 +1,115 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰───────────────────────────────────────
+id: org.hl7.fhir.aitransparency.connectathon43
+canonical: https://hl7.org/fhir/aitransparency/connectathon43
+name: AITransparencyConnectathon43
+title: AI Transparency on FHIR Connectathon 43 Test Data
+description: Synthetic FHIR R4 test data for the AI Transparency on FHIR Connectathon 43.
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: draft
+
+dependencies:
+  hl7.fhir.uv.aitransparency:
+    version: current
+
+parameters: # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+  path-resource:
+    - test_data/labeled
+    - test_data/infrastructure
+
+menu:
+  home: index.html
+  artifacts: artifacts.html
+  download: download.html
+
+resources:
+  Bundle/infrastructure-bundle: 
+    name: "Infrastructure Bundle"
+    description: "Bundle containing infrastructure resources for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/avery-gottlieb-bundle:
+    name: "Avery Gottlieb Bundle"
+    description: "Bundle containing resources related to Avery Gottlieb for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/betsey-reichel-bundle:
+    name: "Betsey Reichel Bundle"
+    description: "Bundle containing resources related to Betsey Reichel for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/bunny-donnelly-bundle:
+    name: "Bunny Donnelly Bundle"
+    description: "Bundle containing resources related to Bunny Donnelly for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/devora-boehm-bundle:
+    name: "Devora Boehm Bundle"
+    description: "Bundle containing resources related to Devora Boehm for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/ellis-sporer-bundle:
+    name: "Ellis Sporer Bundle"
+    description: "Bundle containing resources related to Ellis Sporer for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/elmira-osinski-bundle:
+    name: "Elmira Osinski Bundle"
+    description: "Bundle containing resources related to Elmira Osinski for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/evelia-batz-bundle:
+    name: "Evelia Batz Bundle"
+    description: "Bundle containing resources related to Evelia Batz for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/jonathon-barton-bundle:
+    name: "Jonathon Barton Bundle"
+    description: "Bundle containing resources related to Jonathon Barton for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/jules-hilpert-bundle:
+    name: "Jules Hilpert Bundle"
+    description: "Bundle containing resources related to Jules Hilpert for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/mario-arriaga-bundle:
+    name: "Mario Arriaga Bundle"
+    description: "Bundle containing resources related to Mario Arriaga for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/marisela-wilderman-bundle:
+    name: "Marisela Wilderman Bundle"
+    description: "Bundle containing resources related to Marisela Wilderman for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/marla-mosciski-bundle:
+    name: "Marla Mosciski Bundle"
+    description: "Bundle containing resources related to Marla Mosciski for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/miguel-urrutia-bundle:
+    name: "Miguel Urrutia Bundle"
+    description: "Bundle containing resources related to Miguel Urrutia for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/milissa-stanton-bundle:
+    name: "Milissa Stanton Bundle"
+    description: "Bundle containing resources related to Milissa Stanton for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/nicky-fadel-bundle:
+    name: "Nicky Fadel Bundle"
+    description: "Bundle containing resources related to Nicky Fadel for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/ricarda-stanton-bundle:
+    name: "Ricarda Stanton Bundle"
+    description: "Bundle containing resources related to Ricarda Stanton for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/samira-romaguera-bundle:
+    name: "Samira Romaguera Bundle"
+    description: "Bundle containing resources related to Samira Romaguera for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/silas-thompson-bundle:
+    name: "Silas Thompson Bundle"
+    description: "Bundle containing resources related to Silas Thompson for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/teisha-swift-bundle:
+    name: "Teisha Swift Bundle"
+    description: "Bundle containing resources related to Teisha Swift for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  Bundle/teresa-emard-bundle:
+    name: "Teresa Emard Bundle"
+    description: "Bundle containing resources related to Teresa Emard for the AI Transparency on FHIR Connectathon 43 test data."
+    exampleBoolean: true
+  

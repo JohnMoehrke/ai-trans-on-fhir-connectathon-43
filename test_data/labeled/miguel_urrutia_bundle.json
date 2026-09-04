@@ -1921,6 +1921,15 @@
         "target": [
           {
             "reference": "Condition/3222c323-17aa-3982-4b9c-fc3939bfc66a"
+          },
+          {
+            "reference": "Condition/3222c323-17aa-3982-ecc3-e68fa0f202d6"
+          },
+          {
+            "reference": "Observation/3222c323-17aa-3982-016c-b56b21c96787"
+          },
+          {
+            "reference": "Observation/3222c323-17aa-3982-6402-353e14bc1bb5"
           }
         ],
         "recorded": "2026-06-15T00:00:00Z",
@@ -1971,71 +1980,6 @@
       "request": {
         "method": "PUT",
         "url": "Provenance/provenance-3222c323-17aa-3982-4b9c-fc3939bfc66a"
-      }
-    },
-    {
-      "fullUrl": "Provenance/provenance-3222c323-17aa-3982-ecc3-e68fa0f202d6",
-      "resource": {
-        "resourceType": "Provenance",
-        "id": "provenance-3222c323-17aa-3982-ecc3-e68fa0f202d6",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-Provenance"
-          ]
-        },
-        "target": [
-          {
-            "reference": "Condition/3222c323-17aa-3982-ecc3-e68fa0f202d6"
-          }
-        ],
-        "recorded": "2026-06-15T00:00:00Z",
-        "reason": [
-          {
-            "coding": [
-              {
-                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-                "code": "AIAST"
-              }
-            ]
-          }
-        ],
-        "activity": {
-          "coding": [
-            {
-              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
-              "code": "CREATE",
-              "display": "create"
-            }
-          ]
-        },
-        "agent": [
-          {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
-                  "code": "author",
-                  "display": "Author"
-                }
-              ]
-            },
-            "who": {
-              "reference": "Device/ai-device-1"
-            }
-          }
-        ],
-        "entity": [
-          {
-            "role": "derivation",
-            "what": {
-              "reference": "DocumentReference/prompt-1"
-            }
-          }
-        ]
-      },
-      "request": {
-        "method": "PUT",
-        "url": "Provenance/provenance-3222c323-17aa-3982-ecc3-e68fa0f202d6"
       }
     },
     {
@@ -2101,136 +2045,6 @@
       "request": {
         "method": "PUT",
         "url": "Provenance/provenance-3222c323-17aa-3982-8a81-b89c011f84f9"
-      }
-    },
-    {
-      "fullUrl": "Provenance/provenance-3222c323-17aa-3982-016c-b56b21c96787",
-      "resource": {
-        "resourceType": "Provenance",
-        "id": "provenance-3222c323-17aa-3982-016c-b56b21c96787",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-Provenance"
-          ]
-        },
-        "target": [
-          {
-            "reference": "Observation/3222c323-17aa-3982-016c-b56b21c96787"
-          }
-        ],
-        "recorded": "2026-06-15T00:00:00Z",
-        "reason": [
-          {
-            "coding": [
-              {
-                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-                "code": "AIAST"
-              }
-            ]
-          }
-        ],
-        "activity": {
-          "coding": [
-            {
-              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
-              "code": "CREATE",
-              "display": "create"
-            }
-          ]
-        },
-        "agent": [
-          {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
-                  "code": "author",
-                  "display": "Author"
-                }
-              ]
-            },
-            "who": {
-              "reference": "Device/ai-device-1"
-            }
-          }
-        ],
-        "entity": [
-          {
-            "role": "derivation",
-            "what": {
-              "reference": "DocumentReference/prompt-1"
-            }
-          }
-        ]
-      },
-      "request": {
-        "method": "PUT",
-        "url": "Provenance/provenance-3222c323-17aa-3982-016c-b56b21c96787"
-      }
-    },
-    {
-      "fullUrl": "Provenance/provenance-3222c323-17aa-3982-6402-353e14bc1bb5",
-      "resource": {
-        "resourceType": "Provenance",
-        "id": "provenance-3222c323-17aa-3982-6402-353e14bc1bb5",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-Provenance"
-          ]
-        },
-        "target": [
-          {
-            "reference": "Observation/3222c323-17aa-3982-6402-353e14bc1bb5"
-          }
-        ],
-        "recorded": "2026-06-15T00:00:00Z",
-        "reason": [
-          {
-            "coding": [
-              {
-                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-                "code": "AIAST"
-              }
-            ]
-          }
-        ],
-        "activity": {
-          "coding": [
-            {
-              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
-              "code": "CREATE",
-              "display": "create"
-            }
-          ]
-        },
-        "agent": [
-          {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
-                  "code": "author",
-                  "display": "Author"
-                }
-              ]
-            },
-            "who": {
-              "reference": "Device/ai-device-1"
-            }
-          }
-        ],
-        "entity": [
-          {
-            "role": "derivation",
-            "what": {
-              "reference": "DocumentReference/prompt-1"
-            }
-          }
-        ]
-      },
-      "request": {
-        "method": "PUT",
-        "url": "Provenance/provenance-3222c323-17aa-3982-6402-353e14bc1bb5"
       }
     }
   ]

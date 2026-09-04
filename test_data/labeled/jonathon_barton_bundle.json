@@ -1636,83 +1636,7 @@
         "target": [
           {
             "reference": "Observation/ce4b2864-2e7c-cf91-bd36-15c5f5bc4488"
-          }
-        ],
-        "recorded": "2026-06-15T00:00:00Z",
-        "reason": [
-          {
-            "coding": [
-              {
-                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-                "code": "AIAST"
-              }
-            ]
-          }
-        ],
-        "activity": {
-          "coding": [
-            {
-              "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
-              "code": "CREATE",
-              "display": "create"
-            }
-          ]
-        },
-        "agent": [
-          {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
-                  "code": "verifier",
-                  "display": "Verifier"
-                }
-              ]
-            },
-            "who": {
-              "reference": "Practitioner/practitioner-verifier"
-            }
           },
-          {
-            "type": {
-              "coding": [
-                {
-                  "system": "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
-                  "code": "author",
-                  "display": "Author"
-                }
-              ]
-            },
-            "who": {
-              "reference": "Device/ai-device-2"
-            }
-          }
-        ],
-        "entity": [
-          {
-            "role": "derivation",
-            "what": {
-              "reference": "DocumentReference/prompt-3"
-            }
-          }
-        ]
-      },
-      "request": {
-        "method": "PUT",
-        "url": "Provenance/provenance-ce4b2864-2e7c-cf91-bd36-15c5f5bc4488"
-      }
-    },
-    {
-      "fullUrl": "Provenance/provenance-ce4b2864-2e7c-cf91-dadc-09042a87e603",
-      "resource": {
-        "resourceType": "Provenance",
-        "id": "provenance-ce4b2864-2e7c-cf91-dadc-09042a87e603",
-        "meta": {
-          "profile": [
-            "http://hl7.org/fhir/uv/aitransparency/StructureDefinition/AI-Provenance"
-          ]
-        },
-        "target": [
           {
             "reference": "Observation/ce4b2864-2e7c-cf91-dadc-09042a87e603"
           }
@@ -1778,7 +1702,7 @@
       },
       "request": {
         "method": "PUT",
-        "url": "Provenance/provenance-ce4b2864-2e7c-cf91-dadc-09042a87e603"
+        "url": "Provenance/provenance-ce4b2864-2e7c-cf91-bd36-15c5f5bc4488"
       }
     },
     {

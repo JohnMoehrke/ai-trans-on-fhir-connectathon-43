@@ -14,6 +14,9 @@ copyrightYear: 2026+
 releaseLabel: draft
 
 dependencies:
+  hl7.fhir.us.core: 
+    id: uscore
+    version: 6.1.0
   hl7.fhir.uv.aitransparency:
     version: current
 

@@ -42,7 +42,7 @@
           "coding": [
             {
               "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIdeviceTypeCS",
-              "code": "Clinical-Documentation-and-Workflow"
+              "code": "Artificial-Intelligence"
             }
           ]
         },
@@ -103,7 +103,7 @@
           "coding": [
             {
               "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIdeviceTypeCS",
-              "code": "AI-for-Medical-Text-Data"
+              "code": "Artificial-Intelligence"
             }
           ]
         },
@@ -164,7 +164,7 @@
           "coding": [
             {
               "system": "http://hl7.org/fhir/uv/aitransparency/CodeSystem/AIdeviceTypeCS",
-              "code": "Clinical-Monitoring-and-Early-Warning"
+              "code": "Artificial-Intelligence"
             }
           ]
         },
